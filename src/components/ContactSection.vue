@@ -19,25 +19,33 @@
           <form @submit.prevent="handleSubmit">
             <div class="row g-3">
               <div class="col-md-6">
+                <label for="contact-name" class="visually-hidden">Vaše ime</label>
                 <input
+                  id="contact-name"
                   type="text"
                   class="form-control form-control-rg"
                   placeholder="Vaše ime"
                   v-model="form.name"
+                  autocomplete="name"
                   required
                 />
               </div>
               <div class="col-md-6">
+                <label for="contact-email" class="visually-hidden">Vaš imejl</label>
                 <input
+                  id="contact-email"
                   type="email"
                   class="form-control form-control-rg"
                   placeholder="Vaš imejl"
                   v-model="form.email"
+                  autocomplete="email"
                   required
                 />
               </div>
               <div class="col-12">
+                <label for="contact-subject" class="visually-hidden">Tema</label>
                 <input
+                  id="contact-subject"
                   type="text"
                   class="form-control form-control-rg"
                   placeholder="Tema"
@@ -45,7 +53,9 @@
                 />
               </div>
               <div class="col-12">
+                <label for="contact-message" class="visually-hidden">Vaša poruka</label>
                 <textarea
+                  id="contact-message"
                   class="form-control form-control-rg"
                   rows="5"
                   placeholder="Vaša poruka..."
@@ -91,10 +101,10 @@
               Pratite nas
             </h6>
             <div class="d-flex gap-3">
-              <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
-              <a href="#" class="social-icon"><i class="bi bi-tiktok"></i></a>
+              <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+              <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+              <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube" aria-hidden="true"></i></a>
+              <a href="#" class="social-icon" aria-label="TikTok"><i class="bi bi-tiktok" aria-hidden="true"></i></a>
             </div>
           </div>
 
@@ -118,6 +128,7 @@
         </h4>
         <div style="border: 2px solid rgba(201,168,76,0.3); border-radius: 12px; overflow: hidden;">
           <iframe
+            title="Mapa lokacije MC Road Guardian kluba u Nišu"
             width="100%"
             height="400"
             frameborder="0"
@@ -132,7 +143,7 @@
             <a
               href="https://www.openstreetmap.org/?mlat=43.334043&mlon=21.912949#map=18/43.334043/21.912949"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               style="color: var(--rg-gold); text-decoration: none; font-size: 0.9rem;"
             >
               <i class="bi bi-box-arrow-up-right me-1"></i>Prikaži veću mapu

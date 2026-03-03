@@ -35,14 +35,14 @@
           Pratite nas na društvenim mrežama za još fotografija i video zapisa
         </p>
         <div class="d-flex justify-content-center gap-3 mt-3">
-          <a href="#" class="social-icon">
-            <i class="bi bi-facebook"></i>
+          <a href="#" class="social-icon" aria-label="Facebook">
+            <i class="bi bi-facebook" aria-hidden="true"></i>
           </a>
-          <a href="#" class="social-icon">
-            <i class="bi bi-instagram"></i>
+          <a href="#" class="social-icon" aria-label="Instagram">
+            <i class="bi bi-instagram" aria-hidden="true"></i>
           </a>
-          <a href="#" class="social-icon">
-            <i class="bi bi-youtube"></i>
+          <a href="#" class="social-icon" aria-label="YouTube">
+            <i class="bi bi-youtube" aria-hidden="true"></i>
           </a>
         </div>
       </div>

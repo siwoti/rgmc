@@ -52,9 +52,9 @@
             Društvene mreže
           </h6>
           <div class="d-flex gap-2 mt-3">
-            <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube" aria-hidden="true"></i></a>
           </div>
           <p class="mt-3" style="color: rgba(245,245,245,0.5); font-size: 0.8rem;">
             Pratite nas za najnovije vesti, fotografije i informacije o predstojećim događajima.

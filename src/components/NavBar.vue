@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-rg">
     <div class="container">
       <a class="navbar-brand" href="#pocetna">
-        <img src="@/assets/road_guardian_coat_of_arms.svg" alt="Road Guardian grb" />
+        <img src="@/assets/road_guardian_coat_of_arms.svg" alt="MC Road Guardian Niš - grb moto kluba" />
         <span>MC <strong>Road Guardian</strong></span>
       </a>
       <button
